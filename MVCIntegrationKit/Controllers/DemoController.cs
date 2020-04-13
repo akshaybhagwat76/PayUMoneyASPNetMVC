@@ -44,8 +44,6 @@ namespace MVCIntegrationKit.Controllers
             string productInfo = form["txtprodinfo"].ToString();
             string email = form["txtemail"].ToString();
             string phone = form["txtphone"].ToString();
-            string surl = form["txtsurl"].ToString();
-            string furl = form["txtfurl"].ToString();
 
 
             RemotePost myremotepost = new RemotePost();
